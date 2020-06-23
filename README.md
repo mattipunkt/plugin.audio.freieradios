@@ -1,5 +1,6 @@
 # Freie Radios
-![alt text](https://www.kodinerds.net/index.php/Attachment/40140-icon-png/g)
+![Bild funktioniert wohl nicht.](https://raw.githubusercontent.com/madsters/plugin.audio.freieradios/master/icon.png)
+
 Verfügbare Sender:
 DE:
 - bermuda.funk 
