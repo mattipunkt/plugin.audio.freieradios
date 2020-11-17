@@ -1,6 +1,5 @@
 # Freie Radios
 
-Das Addon ist umgezogen. Hier werden nur noch Releases hinzugefügt. Für genaue Aktualisierungen hier gucken: https://git.hack-hro.de/matti/kodi-freieradios/
 ![Bild funktioniert wohl nicht.](https://raw.githubusercontent.com/madsters/plugin.audio.freieradios/master/icon.png)
 
 Verfügbare Sender:
