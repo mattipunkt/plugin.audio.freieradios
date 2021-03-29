@@ -5,10 +5,10 @@
 
 
 ## WARNUNG
-Dieses Addon ist noch nicht auf Python3 angepasst und funktioniert somit nicht mit Kodi 19 (Matrix)
+Dieses Addon ist noch nicht auf Python3 angepasst und funktioniert somit nicht mit Kodi 19 (Matrix)\
 
 
-
+\
 
 
 Verfügbare Sender:
