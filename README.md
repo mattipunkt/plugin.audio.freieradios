@@ -3,8 +3,12 @@
 ![Bild funktioniert wohl nicht.](https://raw.githubusercontent.com/madsters/plugin.audio.freieradios/master/icon.png)
 
 
+
 ## WARNUNG
 Dieses Addon ist noch nicht auf Python3 angepasst und funktioniert somit nicht mit Kodi 19 (Matrix)
+
+
+
 
 
 Verfügbare Sender:
