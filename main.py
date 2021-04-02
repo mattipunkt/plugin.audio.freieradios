@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import sys, os
-from urllib import urlencode
-from urlparse import parse_qsl
+from urllib.parse import urlencode
+from urllib.parse import parse_qsl
 import xbmcgui
 import xbmcplugin
 import xbmcaddon
@@ -9,16 +9,12 @@ import xbmcaddon
 ADDON_ID      	= 'plugin.audio.freieradios'
 SETTINGS 		= xbmcaddon.Addon(id=ADDON_ID)
 ADDON_PATH    	= SETTINGS.getAddonInfo('path')	# Basis-Pfad Addon
+LOG_MSG = xbmc.LOGINFO
 
-def PLog(msg, loglevel=xbmc.LOGDEBUG):
-#	if DEBUG == 'false':
-#		return
-	if isinstance(msg, str):		# entf. mit six
-		msg = msg.encode('utf-8')
-	loglevel = xbmc.LOGNOTICE
-	# PLog('loglevel: ' + str(loglevel))
-	if loglevel >= 2:
-		xbmc.log("%s --> %s" % ('madsters', msg), level=loglevel)
+def PLog(msg, dummy=''):  
+  xbmc.log("%s --> %s" % ('Freies Radio', msg), LOG_MSG)
+  if dummy:   # Debug (s.o.)
+    xbmc.log("%s --> %s" % ('PLog_dummy', dummy), LOG_MSG)
 		
 def R(fname, abs_path=False):	
 	PLog('R(fname): %s' % fname); # PLog(abs_path)
@@ -345,7 +341,7 @@ if SETTINGS.getSetting('country') == 'false':
         :return: The list of video categories
         :rtype: types.GeneratorType
         """
-        return VIDEOS.iterkeys()
+        return iter(VIDEOS.keys())
 
 
 
@@ -533,7 +529,7 @@ else:
         :return: The list of video categories
         :rtype: types.GeneratorType
         """
-        return SENDERAT.iterkeys()
+        return iter(SENDERAT.keys())
 
 
 
