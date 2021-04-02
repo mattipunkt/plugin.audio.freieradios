@@ -14,8 +14,9 @@ Wer den Source-Code herunterlädt, um das Addon zu installieren, muss Kodi 19 be
 
 
 
-Verfügbare Sender:
-DE:
+## Verfügbare Sender:
+
+### DE:
 - bermuda.funk 
 - coloRadio
 - freeFM
@@ -47,7 +48,7 @@ DE:
 - St(H)örfunk
 - Wüste Welle
 
-AT:
+### AT:
 - Agora
 - Campus & Cityradio 94.4
 - Freies Radio Freistadt
