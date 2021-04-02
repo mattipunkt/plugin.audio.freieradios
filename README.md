@@ -5,10 +5,13 @@
 
 
 ## WARNUNG
-Dieses Addon ist noch nicht auf Python3 angepasst und funktioniert somit nicht mit Kodi 19 (Matrix)\
+Wer den Source-Code herunterlädt, um das Addon zu installieren, muss Kodi 19 benutzen. Wer noch auf Kodi 18 ist muss die Version 1.0.1 von den Releases nehmen.
 
 
-\
+
+
+
+
 
 
 Verfügbare Sender:
